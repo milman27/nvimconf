@@ -1,6 +1,6 @@
 #!/bin/bash
 StartDir = $(pwd)
-sudo pacman -Syy --needed git base-devel nvim ccls man 
+sudo pacman -Syy --needed git base-devel nvim ccls man fzf
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
