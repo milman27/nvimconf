@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo pacman -Syy n--needed git base-devel vim ccls 
+sudo pacman -Syy --needed git base-devel nvim ccls 
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
